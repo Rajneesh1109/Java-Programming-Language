@@ -24,11 +24,24 @@
 
 // Now printing pattern using println
 
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         System.out.println("****");
+//         System.out.println("***");
+//         System.out.println("**");
+//         System.out.println("*");
+//     }
+// }
+
+// Variable in java
+
 public class JavaBasics {
     public static void main(String args[]) {
-        System.out.println("****");
-        System.out.println("***");
-        System.out.println("**");
-        System.out.println("*");
+        int a = 10;
+        int b = 5;
+        System.out.println(a);
+        System.out.println(b);
+        String name = "tony";
+        System.out.println(name);
     }
 }

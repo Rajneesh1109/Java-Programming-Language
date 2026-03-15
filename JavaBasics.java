@@ -61,5 +61,9 @@ public class JavaBasics {
         a = 78;
         System.out.println(a);
 
+        a = b;
+        System.out.println(a);
+        System.out.println(b);
+
     }
 }

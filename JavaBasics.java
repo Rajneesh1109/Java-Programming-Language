@@ -49,21 +49,42 @@
 
 // Changing variable value now 
 
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         int a = 10;
+//         int b = 5;
+//         System.out.println(a);
+//         System.out.println(b);
+//         String name = "tony";
+//         System.out.println(name);
+
+//         a = 78;
+//         System.out.println(a);
+
+//         a = b;
+//         System.out.println(a);
+//         System.out.println(b);
+
+//     }
+// }
+
+
+
+// Data Type in Java
+
 public class JavaBasics {
     public static void main(String args[]) {
-        int a = 10;
-        int b = 5;
-        System.out.println(a);
+        byte b = 8;
         System.out.println(b);
-        String name = "tony";
-        System.out.println(name);
-
-        a = 78;
-        System.out.println(a);
-
-        a = b;
-        System.out.println(a);
-        System.out.println(b);
+        char ch = 'a';
+        System.out.println(ch);
+        boolean var = true;
+        float price = 10.5f;
+        int number = 25;
+        //long for use in long number
+        //double - decimal me long number
+        short n = 240;
+        System.out.println(var);
 
     }
 }

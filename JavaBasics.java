@@ -104,11 +104,23 @@
 
 // Sum of a & b in Java
 
-public class JavaBasics {
-    public static void main(String srgs[]) {
-        int a = 5;
-        int b = 20;
-        int sum = a + b;
-        System.out.println(sum);
+// public class JavaBasics {
+//     public static void main(String srgs[]) {
+//         int a = 5;
+//         int b = 20;
+//         int sum = a + b;
+//         System.out.println(sum);
+//     }
+// }
+
+
+// Subtraction
+
+public class Javabasics {
+    public static void main (String args[]) {
+        int a = 20;
+        int b = 35;
+        int Sub = a - b;
+        System.out.println(Sub);
     }
 }

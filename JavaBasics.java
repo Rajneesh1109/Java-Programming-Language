@@ -116,11 +116,22 @@
 
 // Subtraction
 
-public class Javabasics {
-    public static void main (String args[]) {
-        int a = 20;
-        int b = 35;
-        int Sub = a - b;
-        System.out.println(Sub);
+// public class Javabasics {
+//     public static void main (String args[]) {
+//         int a = 20;
+//         int b = 35;
+//         int Sub = a - b;
+//         System.out.println(Sub);
+//     }
+// }
+
+//Multiplication
+
+public class javaBasic {
+    public static void main(String args[]) {
+        int a = 100;
+        int d = 5500;
+        int g = a*d;
+        System.out.println(g);
     }
 }

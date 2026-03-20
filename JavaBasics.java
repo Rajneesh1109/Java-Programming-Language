@@ -127,11 +127,22 @@
 
 //Multiplication
 
+// public class javaBasic {
+//     public static void main(String args[]) {
+//         int a = 100000;
+//         int d = 5500;
+//         int g = a*d;
+//         System.out.println(g);
+//     }
+// }
+
+// division
+
 public class javaBasic {
     public static void main(String args[]) {
-        int a = 100;
+        int a = 100000;
         int d = 5500;
-        int g = a*d;
+        int g = a/d;
         System.out.println(g);
     }
 }

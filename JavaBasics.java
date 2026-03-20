@@ -72,19 +72,43 @@
 
 // Data Type in Java
 
-public class JavaBasics {
-    public static void main(String args[]) {
-        byte b = 8;
-        System.out.println(b);
-        char ch = 'a';
-        System.out.println(ch);
-        boolean var = true;
-        float price = 10.5f;
-        int number = 25;
-        //long for use in long number
-        //double - decimal me long number
-        short n = 240;
-        System.out.println(var);
+// public class JavaBasics {
+//     public static void main(String args[]) {
+//         byte b = 8;
+//         System.out.println(b);
+//         char ch = 'a';
+//         System.out.println(ch);
+//         boolean var = true;
+//         float price = 10.5f;
+//         int number = 25;
+//         //long 
+//         //double 
+//         // | Data Type | Example |
+//         // | --------- | ------- |
+//         // | float     | `10.5f` |
+//         // | double    | `10.5`  |
+//         // | Data Type | Size    | Example               |
+//         // | --------- | ------- | --------------------- |
+//         // | `byte`    | 1 byte  | `byte b = 10;`        |
+//         // | `short`   | 2 bytes | `short s = 240;`      |
+//         // | `int`     | 4 bytes | `int n = 25;`         |
+//         // | `long`    | 8 bytes | `long num = 123456L;` |
 
+
+//         short n = 240;
+//         System.out.println(var);
+
+//     }
+// }
+
+
+// Sum of a & b in Java
+
+public class JavaBasics {
+    public static void main(String srgs[]) {
+        int a = 5;
+        int b = 20;
+        int sum = a + b;
+        System.out.println(sum);
     }
 }

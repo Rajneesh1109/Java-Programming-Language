@@ -59,13 +59,29 @@
 // Input from user(Product of a & b)
 
 
+// import java.util.*;
+// public class input {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+//         int product = a*b;
+//         System.out.println(product);
+//     }
+// }
+
+
+// Input from user (Area of circle)
+
+
 import java.util.*;
 public class input {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int product = a*b;
-        System.out.println(product);
+        float a = sc.nextFloat();
+        float b = 3.14f*a*a;
+        // 3.14 default me double hota hai Java me
+        // 3.14 ke aage f laga do
+        System.out.println(b);
     }
 }

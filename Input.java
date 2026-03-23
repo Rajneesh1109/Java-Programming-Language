@@ -138,12 +138,32 @@
 // }
 
 
+// public class input {
+//     public static void main(String args[]) {
+//         float marks = 98.9899f;
+//         int marks2 = (int)marks;
+//         System.out.println(marks2);
+
+//     }
+// }
+
+
+// Type casting (storing char into int)
+
+// public class input {
+//     public static void main(String args[]) {
+//         char ch = 'a' ;
+//         int number = ch;
+//         System.out.println(number);
+//     }
+// }
+
+
+
 public class input {
     public static void main(String args[]) {
-        float marks = 98.9899f;
-        int marks2 = (int)marks;
-        System.out.println(marks2);
-
+        char ch = 'b' ;
+        int number = ch;
+        System.out.println(number);
     }
 }
-

@@ -74,14 +74,76 @@
 // Input from user (Area of circle)
 
 
-import java.util.*;
+// import java.util.*;
+// public class input {
+//     public static void main(String args[]) {
+//         Scanner sc = new Scanner(System.in);
+//         float a = sc.nextFloat();
+//         float b = 3.14f * a * a;
+//         // 3.14 default me double hota hai Java me
+//         // 3.14 ke aage f laga do
+//         System.out.println(b);
+//     }
+// }
+
+
+
+// Type Conversion 
+// byte > short > int > float > long > double
+
+// import java.util.*;
+// public class input {
+//     public static void main(String args[]) {
+//         // int a = 25;
+//         // long b = a;
+//         long a = 25;
+//         int b = a;    // not possible bcz long to int not possible
+
+//         System.out.println(b);
+//     }
+// }
+
+
+// ex-2
+
+// import java.util.*;
+// public class input {
+//     public static void main(String agrs[]) {
+//         Scanner sc = new Scanner(System.in);
+//         // int a = sc.nextFloat();
+//         //possible lossy conversion from float to int
+//         float a = sc.nextInt();    int liya 25 usko float me store kiya toh 25.0 hogaya.
+//         System.out.println(a);
+//     }
+// }
+
+
+
+// Type Casting : ( Value jo forcely Assign krna )
+
+// float a = 25.0;
+// int b = a;
+// forcely krne ke liye 
+// int b = (int)a;
+
+
+
+// public class input {
+//     public static void main(String args[]) {
+//         float a = 25.12f;
+//         // int b = a;         // possible lossy conversion from float to int
+//         int b = (int) a;      // forcly assign ke liye (int) kiye hain.
+//         System.out.println(b);
+//     }
+// }
+
+
 public class input {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        float a = sc.nextFloat();
-        float b = 3.14f*a*a;
-        // 3.14 default me double hota hai Java me
-        // 3.14 ke aage f laga do
-        System.out.println(b);
+        float marks = 98.9899f;
+        int marks2 = (int)marks;
+        System.out.println(marks2);
+
     }
 }
+

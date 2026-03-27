@@ -160,10 +160,10 @@
 
 
 
-public class input {
-    public static void main(String args[]) {
-        char ch = 'b' ;
-        int number = ch;
-        System.out.println(number);
-    }
-}
+// public class input {
+//     public static void main(String args[]) {
+//         char ch = 'b' ;
+//         int number = ch;
+//         System.out.println(number);
+//     }
+// }

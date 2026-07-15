@@ -49,13 +49,30 @@
 // }
 
 
+// public class operator {
+//     public static void main(String args[]) {
+//         int A = 10 ;
+//         int B = 5 ;
+//         System.out.println((A!=B));
+//         System.out.println((A>B));
+//     }
+// }
+
+
+// Logical operator
+// &&  (Logical AND)
+// ||  (Logical OR)
+// !   (Logical NOT)
+
+//Logical NOT operator 
 public class operator {
     public static void main(String args[]) {
-        int A = 10 ;
-        int B = 5 ;
-        System.out.println((A!=B));
-        System.out.println((A>B));
-        
-
+        System.out.println( (3>1));
+        System.out.println( !(3>1));
+        System.out.println(!(5==2));
     }
 }
+
+
+
+// 

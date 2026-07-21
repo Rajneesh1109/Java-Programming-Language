@@ -142,3 +142,76 @@
 
 
 
+// now we will do advanve patterrn 
+
+//now we print hollow pattern 
+
+// *****
+// *   *
+// *   *
+// *****
+
+// import java.util.*;
+
+// public class pattern {
+// 	public static void main (String[] args) { 
+	    
+// 		Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter: row,col");
+// 		int row = sc.nextInt();
+// 		int col = sc.nextInt();
+		
+// 		for(int i = 1; i<=row; i++){
+// 		    for(int j=1; j<=col; j++) {
+// 		        if(i==1 || i==row || j==1 || j==col) {
+// 		            System.out.print("*");
+// 		        }
+// 		        else{
+// 		            System.out.print(" ");
+		            
+// 		        }
+// 		    }
+// 		    	System.out.println();
+// 		}
+
+// 	}
+// }
+
+
+
+
+
+
+
+
+import java.util.*;
+
+ public class pattern
+{
+	public static void main (String[] args) {
+	    Scanner sc = new Scanner (System.in);
+	    System.out.print("Enter row :");
+		int  row = sc.nextInt();
+		System.out.print("Enter col :");
+	    int col = sc.nextInt();
+	    
+	    for(int i=1; i<=row; i++) {
+	        for(int j=1; j<=col; j++) {
+	            if(i==1 || i==row || j==1 || j==col) {
+	                System.out.print("*");
+	                
+	            } else {
+	                System.out.print(" ");
+	            }
+	        }
+	        System.out.println();
+	    }
+	    
+	}
+	
+}
+
+
+
+
+
